@@ -1,4 +1,3 @@
-P R O J E C T  4 -- C S C 2 4 5 
 Djikstra's Algorithm 
 
 Written by Eduardo Rubio 
