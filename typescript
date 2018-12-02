@@ -1,0 +1,45 @@
+Script started on Sun 29 Apr 2018 01:49:43 AM EDT
+]0;rubio_e@cobra:~/CSC245/Proj/Project4[?1034h[rubio_e@cobra Project4]$ c++ dijkstra.cpp 
+]0;rubio_e@cobra:~/CSC245/Proj/Project4[rubio_e@cobra Project4]$ a.out ginfile1.dat
+[H[2J
+
+====================================================================================
+
+====================== D I J K S T R A ' S  A L G O R I T H M ======================
+
+====================================================================================
+
+
+              Atlanta	               Austin	              Chicago	
+               Dallas	               Denver	              Houston	
+           Washington	
+
+ Please input your starting vertex: D Dallas
+===================================================================================
+
+           Vertex         Distance        Previous
+
+        Dallas                 0             N/A
+        Austin               200          Dallas
+       Houston               360          Austin
+        Denver               780          Dallas
+       Chicago               900          Dallas
+       Atlanta              1160         Houston
+    Washington              1760         Atlanta
+
+
+	There is a cycle found in this graph!
+===================================================================================
+
+Dallas
+ |
+ |
+  -->Austin
+ |
+ |
+  -->Dallas
+
+]0;rubio_e@cobra:~/CSC245/Proj/Project4[rubio_e@cobra Project4]$ exit
+exit
+
+Script done on Sun 29 Apr 2018 01:50:09 AM EDT
